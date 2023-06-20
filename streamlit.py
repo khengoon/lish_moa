@@ -23,7 +23,7 @@ import torch.nn.functional as F
 from iterstrat.ml_stratifiers import MultilabelStratifiedKFold
 
 from utils import lottie_drug
-from streamlit_lottie import st_lottie
+# from streamlit_lottie import st_lottie
 from model import *
 
 
@@ -31,7 +31,7 @@ from model import *
 
 ################################################################################
 
-st_lottie(lottie_drug, height=200)
+# st_lottie(lottie_drug, height=200)
 
 st.title('Drug Mechanisms of Action')
 
